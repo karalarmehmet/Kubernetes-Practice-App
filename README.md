@@ -5,7 +5,7 @@ A tiny, production-flavored demo you can use to practice Kubernetes: a Go API + 
 
 to practice building, containerizing, and deploying to Kubernetes.
 
-## 1) Build images
+1) Build images
 
 ```bash
 # from project root
