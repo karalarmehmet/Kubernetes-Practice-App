@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Go + K8s Practice</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Go + Frontend on Kubernetes</h1>
+    <p class="muted">Add a message, then see the API respond below.</p>
+
+    <form id="msg-form">
+      <input id="text" placeholder="Type a message" required />
+      <button type="submit">Send</button>
+    </form>
+
+    <section>
+      <h2>Messages</h2>
+      <ul id="list"></ul>
+    </section>
+
+    <footer>
+      <span id="status">Loading…</span>
+    </footer>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
