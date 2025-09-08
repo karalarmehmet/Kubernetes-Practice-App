@@ -11,9 +11,7 @@ to practice building, containerizing, and deploying to Kubernetes.
 # from project root
 # Backend
 docker build -t go-k8s-api:1.0 ./backend
-```
 
-```bash
 # Frontend
 docker build -t go-k8s-web:1.0 ./frontend
 
