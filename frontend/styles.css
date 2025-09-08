@@ -1,0 +1,12 @@
+:root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #0b1020; color: #e6eaf2; }
+.container { max-width: 720px; margin: 40px auto; padding: 24px; background: #121a33; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+h1 { margin-top: 0; }
+.muted { color: #aab3c5; }
+form { display: flex; gap: 8px; margin: 16px 0 24px; }
+input { flex: 1; padding: 10px 12px; border-radius: 10px; border: 1px solid #2a355d; background: #0e1430; color: inherit; }
+button { padding: 10px 14px; border: 0; border-radius: 10px; background: #4e7cff; color: white; cursor: pointer; }
+ul { list-style: none; padding-left: 0; }
+li { padding: 8px 0; border-bottom: 1px solid #1f2a52; }
+footer { margin-top: 24px; font-size: 12px; color: #92a2c7; }
