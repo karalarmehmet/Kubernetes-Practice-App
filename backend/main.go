@@ -47,6 +47,22 @@ func main() {
 		w.Write([]byte("ready"))
 	})
 
+	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/html; charset=utf-8")
+		w.WriteHeader(http.StatusOK)
+		w.Write([]byte(`
+		  <!doctype html>
+		  <html><body style="font-family:sans-serif">
+			<h1>Go API is running 🚀</h1>
+			<ul>
+			  <li><a href="/api/health">/api/health</a></li>
+			  <li><a href="/api/version">/api/version</a></li>
+			  <li>Mesajlar: <code>GET /api/messages</code>, <code>POST /api/messages</code></li>
+			</ul>
+		  </body></html>
+		`))
+	})
+
 	mux.HandleFunc("/api/version", func(w http.ResponseWriter, r *http.Request) {
 		respondJSON(w, http.StatusOK, map[string]string{
 			"version": "1.0.0",
