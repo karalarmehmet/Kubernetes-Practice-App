@@ -5,6 +5,13 @@ A tiny, production-flavored demo you can use to practice building, containerizin
 
 
 ```bash
+you can pull the images without building as shown below:
+
+docker pull mehmetkaralar/go-k8s-api:latest
+docker pull mehmetkaralar/go-k8s-web:latest
+```
+
+```bash
 1) Build images
 # from project root
 # Backend
