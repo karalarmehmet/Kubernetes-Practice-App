@@ -1,9 +1,7 @@
 # Kubernetes-Practice-App
 
 # Go + Frontend Kubernetes Practice App
-A tiny, production-flavored demo you can use to practice Kubernetes: a Go API + a static frontend (vanilla JS) calling the API. Includes Dockerfiles, manifests with probes, ConfigMap, Ingress, and optional HPA.
-
-to practice building, containerizing, and deploying to Kubernetes.
+A tiny, production-flavored demo you can use to practice building, containerizing, and deploying to Kubernetes: a Go API + a static frontend (vanilla JS) calling the API. Includes Dockerfiles, manifests with probes, ConfigMap, Ingress, and optional HPA.
 
 
 ```bash
